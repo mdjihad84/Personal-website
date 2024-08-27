@@ -1,0 +1,28 @@
+
+* {
+    font-family: sans-serif;
+}
+
+/* header section */
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+ul {
+    display: flex;
+    gap: 30px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+}
+.header-btn button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: crimson;
+}
