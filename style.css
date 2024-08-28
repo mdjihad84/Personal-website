@@ -6,14 +6,14 @@
 .navbar-nav li a {
     color: white;
 }
-/* .text-white p {
-    color: white;
-}
-.text-white h1 {
-    color: white;
-} */
 .navbar-brand {
     margin-left: 80px;
+}
+.header-btn {
+    background-color: #f9004d;
+    color: white;
+    margin-right: 15px;
+    padding: 5px 28px 5px 28px;
 }
 
 /* hero section */
@@ -22,7 +22,7 @@
     padding: 0px 18px 0px 18px;
     border: none;
     color: white;
-    background-color: #ce2f2f;
+    background-color: #f9004d;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -37,29 +37,40 @@
 }
 .hero-left {
     width: 660px;
-    margin-top: 100px;
+    margin-top: 190px;
 }
 .hero-img img{
     margin-left: 230px;
     margin-top: -80px;
 }
+.hero-span {
+    color: #f9004d;
+}
 /* about section */
 .about-left {
-    margin-left: 260px;
+    margin-left: 240px;
     width: 350px;
 }
 .about-right {
     margin-left: 130px;
 }
+.about-right button {
+    background-color: #f9004d;
+    padding: 5px 28px 5px 28px;
+}
 .bg-dark {
     padding: 60px;
+}
+.about-bg {
+    padding: 90px;
 }
 .about-description {
     width: 484px;
     text-align: justify;
 }
-.btn-danger {
+.about-btn {
     width: 130px;
+    background-color: #f9004d;
 }
 /* service section */
 .service-card {
@@ -67,13 +78,24 @@
     margin-left: 12px;
     text-align: center;
 }
+.service-card a {
+    background-color: #f9004d;
+}
 .card-body {
     padding: 12px;
 }
 .service-card i {
-    color: #ce2f2f;
+    color: #f9004d;
+}
+.web-btn {
+    background-color: #f9004d;
+    color: white;
+    padding: 5px 28px 5px 28px;
 }
 /* footer section */
+.footer-bg {
+    padding: 40px;
+}
 .footer-navber {
     display: inline-flex;
     gap: 25px;
