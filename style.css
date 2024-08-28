@@ -33,11 +33,15 @@
     border-radius: 25px;
 }
 .margin-top {
-    margin-top: 100px;
     margin-left: 100px;
 }
 .hero-left {
-    margin-left: -25px;
+    width: 660px;
+    margin-top: 100px;
+}
+.hero-img img{
+    margin-left: 230px;
+    margin-top: -80px;
 }
 /* about section */
 .about-left {
@@ -56,4 +60,31 @@
 }
 .btn-danger {
     width: 130px;
+}
+/* service section */
+.service-card {
+    width: 25rem;
+    margin-left: 12px;
+    text-align: center;
+}
+.card-body {
+    padding: 12px;
+}
+.service-card i {
+    color: #ce2f2f;
+}
+/* footer section */
+.footer-navber {
+    display: inline-flex;
+    gap: 25px;
+}
+.footer-navber li {
+    list-style: none;
+}
+.footer-navber li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-navber i {
+    width: 20px;
 }
