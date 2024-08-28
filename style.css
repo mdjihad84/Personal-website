@@ -12,6 +12,7 @@
 .header-btn {
     background-color: #f9004d;
     color: white;
+    border: none;
     margin-right: 15px;
     padding: 5px 28px 5px 28px;
 }
@@ -34,14 +35,16 @@
 }
 .margin-top {
     margin-left: 100px;
+    margin-bottom: -106px;
 }
 .hero-left {
     width: 660px;
-    margin-top: 190px;
+    margin-top: 165px;
 }
 .hero-img img{
     margin-left: 230px;
-    margin-top: -80px;
+    width: 45%;
+    height: 83%;
 }
 .hero-span {
     color: #f9004d;
