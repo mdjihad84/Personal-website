@@ -1,18 +1,20 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 /* header section */
 .navbar-nav li a {
     color: white;
 }
-.text-white p {
+/* .text-white p {
     color: white;
 }
 .text-white h1 {
     color: white;
-}
+} */
 .navbar-brand {
     margin-left: 80px;
 }
-
 
 /* hero section */
 .hero-btn {
@@ -30,20 +32,28 @@
     width: 240px;
     border-radius: 25px;
 }
-.d-flex {
-    padding-left: 0px;
-    margin-right: -400px;
-}
 .margin-top {
     margin-top: 100px;
+    margin-left: 100px;
 }
 .hero-left {
     margin-left: -25px;
 }
 /* about section */
 .about-left {
-    margin-left: 220px;
+    margin-left: 260px;
+    width: 350px;
 }
 .about-right {
-    margin-right: -275px;
+    margin-left: 130px;
+}
+.bg-dark {
+    padding: 60px;
+}
+.about-description {
+    width: 484px;
+    text-align: justify;
+}
+.btn-danger {
+    width: 130px;
 }
